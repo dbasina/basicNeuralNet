@@ -1,0 +1,9 @@
+#!/bin/bash
+
+git init
+git add .
+git commit -m "Setup"
+echo Enter Repository URL:
+read url
+git remote add origin $url
+git push -u origin master
